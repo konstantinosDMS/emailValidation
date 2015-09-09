@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="user" method="upgrade" >
+	<name>plg_user_emailValidation</name>
+	<author>Konstantinos Dimos</author>
+	<creationDate>May 2015</creationDate>
+	<copyright>(C) 20151 Konstantinos Dimos. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later;</license>
+	<authorEmail>dms.kon@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>2.5.0</version>
+	<description>PLG_USER_EMAILVALIDATION_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="emailValidation">emailValidation.php</filename>
+		<filename>index.html</filename>
+           <filename>LICENCE.txt</filename>
+           <filename>README.MD</filename>
+                <folder>smtp-validate-email-master</folder>
+		<folder>language</folder>
+	</files>
+
+	<config>
+        </config>
+</extension>
